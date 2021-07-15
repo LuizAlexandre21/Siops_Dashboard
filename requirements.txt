@@ -7,5 +7,4 @@ pandas
 numpy 
 scipy
 plotly
-json 
 
