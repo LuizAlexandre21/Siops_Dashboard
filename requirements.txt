@@ -8,4 +8,4 @@ numpy
 scipy
 plotly
 json 
-dash_table
+
