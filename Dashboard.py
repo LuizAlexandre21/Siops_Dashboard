@@ -12,7 +12,6 @@ import plotly.express as px
 import plotly.graph_objects as go 
 from dash.dependencies import Input, Output
 import json 
-import dash_table
 
 # Importando os dados  
 # Estrutura de conexão do banco de dados 
@@ -243,19 +242,6 @@ def Histogram(Ano,rubrica,Tipo):
     fig = px.histogram(rubrica,x='Choropleth')
     return fig 
 
-
-@app.callback(Output("Dataframe",'data'),[Input('Ano','value'),Input('rubrica','value')])
-def Dataframe(Ano,rubrica):
-    data = dados[dados['ano']==str(Ano)]
-    data = data[data['campo']==rubrica]
-    df = pd.DataFrame(
-        {
-            "Parâmetros": ["media","variancia","desvio padrão","curtoses","assimetria"],
-            "Valores":[np.mean(data['Receitas_realizadas_Bimestre']),np.var(data['Receitas_realizadas_Bimestre']),np.std(data['Receitas_realizadas_Bimestre']),sc.kurtosis(data['Receitas_realizadas_Bimestre']),sc.skew(data['Receitas_realizadas_Bimestre'])]
-  
-        }   
-    )
-    return df
 
 if __name__ == "__main__":
     app.run_server(debug=True)
