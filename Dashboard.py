@@ -45,7 +45,7 @@ Tipo =[{'label':'Padrão','value':'Padrão'},{'label':'População','value':'Pop
 
 # Criando o Dash
 app = dash.Dash(__name__)
-
+server = app.server
 # Titulo
 Titulo = html.Div(
     html.H1(
