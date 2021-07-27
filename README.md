@@ -1,26 +1,21 @@
-<h1 align=center> Scraping Siops/Datasus</h1>
-<h2 align=center> Dashboard contendo indicadores sobre os demonstrativos do Siops  </h2>
+<h1 align=center> Scraping Instagram </h1>
+<h2 align=center> Scraping dos perfis do instagram</h2>
 
 --- 
 
-O SIOPS é o sistema informatizado, de alimentação obrigatória e acesso público, operacionalizado pelo Ministério da Saúde, instituído para coleta, recuperação, processamento, armazenamento, organização, e disponibilização de informações referentes às receitas totais e às despesas com saúde dos orçamentos públicos em saúde. O sistema possibilita o acompanhamento e monitoramento da aplicação de recursos em saúde, no âmbito da  União, Estados, Distrito Federal e Municípios, sem prejuízo das atribuições próprias dos Poderes Legislativos e dos Tribunais de Contas.
-
+Instagram é uma rede social online de compartilhamento de fotos e vídeos entre seus usuários, que permite aplicar filtros digitais e compartilhá-los em uma variedade de serviços de redes sociais, como Facebook, Twitter, Tumblr e Flickr. Wikipédia
 ---
 
 ## Informação sobre o scraper 
 
-### Histórico das versões 
-
-- [x] Versão para o estado do Ceará 
-
-### Versão 0.0.1 
+### Versão 0.1
 - Receitas para apuração da aplicação em ações e serviços públicos de saúde
-    - Histograma dos valores aplicados no estado 
-    - Grafico de barras com os valores aplicados por cada municipio 
-    - Mapa de distribuição dos recursos no estado do ceará 
-
-- Amostra:  Municipios do Estado do Ceará 
-- Intervalo Temporal : 2013 - 2019 
+    - identificador do usuário 
+    - url do post
+    - data de postagem
+    - quantidade de postagem
+    - quantidade de comentários
+    - atualização 
 
 
 ## Contato 
