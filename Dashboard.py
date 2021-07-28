@@ -13,6 +13,7 @@ import plotly.graph_objects as go
 from dash.dependencies import Input, Output
 import json 
 
+
 # Importando os dados  
 # Estrutura de conexão do banco de dados 
 host = 'localhost'
